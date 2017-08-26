@@ -361,7 +361,7 @@ describe('ManifestPlugin', function() {
         expect(manifest).toBeDefined();
         expect(manifest).toEqual({
           'main.js': 'main.js',
-          'file.txt': 'file.txt'
+          'fixtures/file.txt': 'file.txt'
         });
 
         done();
@@ -391,7 +391,7 @@ describe('ManifestPlugin', function() {
         expect(manifest).toBeDefined();
         expect(manifest).toEqual({
           'main.js': 'main.js',
-          'file.txt': 'outputfile.txt'
+          'fixtures/file.txt': 'outputfile.txt'
         });
 
         done();
